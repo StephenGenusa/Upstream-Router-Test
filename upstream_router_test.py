@@ -4,7 +4,7 @@
 Upstream router test by Stephen Genusa - January 2018
 
 Determine router IP addresses for a given number of upstream hops, then ping
-them for 5 seconds, take a 5 second break and repeat for y minutes, reporting
+them for 5 seconds, take a 5 second break and repeat, reporting
 results as process runs. Written to document a failing router for ISP.
 
 Code to get router list adapted from https://github.com/leonidg/Poor-Man-s-traceroute by Leonid Grinberg
