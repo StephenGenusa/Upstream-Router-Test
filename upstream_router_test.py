@@ -7,9 +7,10 @@ Determine router IP addresses for a given number of upstream hops, then ping
 them for 5 seconds, take a 5 second break and repeat, reporting
 results as process runs. Written to document a failing router for ISP.
 
-Code to get router list adapted from https://github.com/leonidg/Poor-Man-s-traceroute by Leonid Grinberg
-MultiPing 
+Code to get router list adapted from 
+https://github.com/leonidg/Poor-Man-s-traceroute by Leonid Grinberg
 
+MultiPing by Juergen Brendel; pip install multiping
 
 Copyright 2018 by Stephen Genusa
 
@@ -37,7 +38,6 @@ POSSIBILITY OF SUCH DAMAGE.
 """
 
 from collections import defaultdict
-#import optparse
 import socket
 import sys
 import time
